@@ -5,10 +5,9 @@ import "./style.css";
 import "./assets/img/rigo-baby.jpg";
 import "./assets/img/4geeks.ico";
 
-let pinta = ["\u2666", "\u2665", "\u2660", "\u2663"];
-
 window.onload = function() {
   //write your code here
+  let pinta = ["\u2666", "\u2665", "\u2660", "\u2663"];
 
   let numran = Math.floor(Math.random() * 13 + 1);
 
@@ -26,7 +25,7 @@ window.onload = function() {
     } else if (numran == 1) {
       num = "A";
     } else {
-      num = numran;
+      num = numran.toString();
     }
 
     /*let colo = function() {

@@ -14,6 +14,15 @@ h2 {
   text-align: center;
 }
 
+#btn {
+  position: relative;
+  float: right;
+  margin-top: -50px;
+  margin-right: 200px;
+  font-size: 25px;
+  border-radius: 8px;
+}
+
 #cartas {
   background-color: white;
   height: 600px;
@@ -26,20 +35,20 @@ h2 {
 }
 
 #paloariba {
-  width: 90px;
-  height: 80px;
+  width: 100px;
+  height: 90px;
   float: left;
-  margin-left: 20px;
-  margin-top: 4px;
+  margin-left: 17px;
+  margin-top: 0px;
   position: relative;
 }
 
 #paloabajo {
-  width: 90px;
-  height: 80px;
+  width: 100px;
+  height: 90px;
   float: right;
   margin-right: 20px;
-  margin-top: 81px;
+  margin-top: 72px;
 }
 
 #numcarta {
