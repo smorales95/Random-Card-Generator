@@ -1,1 +1,58 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+
+h1 {
+  font-size: 300px;
+  text-align: center;
+  margin-top: -60px;
+}
+h2 {
+  font-size: 80px;
+  text-align: center;
+}
+
+i {
+  font-size: 80px;
+  text-align: center;
+}
+#cartas {
+  background-color: white;
+  height: 600px;
+  width: 425px;
+  margin-left: 34%;
+  border-radius: 5px;
+  margin-top: 30px;
+  display: inline-block;
+  text-align: center;
+}
+
+#paloariba {
+  width: 90px;
+  height: 80px;
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+  position: relative;
+}
+
+#paloabajo {
+  width: 90px;
+  height: 80px;
+  float: right;
+  margin-right: 20px;
+  margin-top: 81px;
+}
+
+#numcarta {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  margin-top: 150px;
+  position: relative;
+  text-align: center;
+}
+
+/*let pinta = ['\u2666','\u2665','\u2660', '\u2663']*/
