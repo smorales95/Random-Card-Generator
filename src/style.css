@@ -10,20 +10,16 @@ h1 {
   margin-top: -60px;
 }
 h2 {
-  font-size: 80px;
+  font-size: 100px;
   text-align: center;
 }
 
-i {
-  font-size: 90px;
-  text-align: center;
-}
 #cartas {
   background-color: white;
   height: 600px;
   width: 425px;
   margin-left: 34%;
-  border-radius: 5px;
+  border-radius: 10px;
   margin-top: 30px;
   display: inline-block;
   text-align: center;
@@ -34,7 +30,7 @@ i {
   height: 80px;
   float: left;
   margin-left: 20px;
-  margin-top: 10px;
+  margin-top: 4px;
   position: relative;
 }
 
